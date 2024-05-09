@@ -19,7 +19,7 @@ name = "elf"
 [dependencies]
 
 [features]
-default = ["std", "to_str"]
+default = []
 std = []
 to_str = []
 # Enable for nightly feature(error_in_core) to impl core::error::Error on ParseError
